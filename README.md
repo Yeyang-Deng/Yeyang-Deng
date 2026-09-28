@@ -1,161 +1,138 @@
 # Hi, I'm Yeyang Deng 👋
 
-I am a Master of Computing and Innovation student at the University of Adelaide, with interests in software engineering, machine learning, data analytics, secure systems, and game development.
+Recent Master of Computing and Innovation graduate with experience in software development, machine learning, backend development and data systems.
 
-I enjoy building practical software projects that combine backend development, data processing, visualisation, and applied machine learning.
+I have around one year of previous professional experience in game development and have worked with Python, JavaScript/TypeScript, C/C++, Django, machine learning and database technologies.
 
----
+📍 Adelaide, Australia  
+💼 Open to graduate and early-career opportunities in Software Engineering, Data and AI
 
-## About Me
-
-- 🎓 Master of Computing and Innovation student at the University of Adelaide
-- 💻 Interested in software engineering, AI, data analytics, and cybersecurity
-- 🧠 Experience with Python, JavaScript, TypeScript, C/C++, Django, machine learning, and database systems
-- 📊 Worked on projects involving InfluxDB, Grafana, secure communication protocols, and emergency triage prediction
-- 🎮 Previous experience and strong interest in game development and interactive systems
+> **Portfolio note:** Many of my university projects were completed in private team repositories. Where the original repository cannot be made public, I have created portfolio versions containing selected parts of my own work and material that I am permitted to share.
 
 ---
 
-## Featured Projects
+## 🛠 Technical Skills
 
-### INFLUX-PG-11
+**Languages**
 
-A software engineering group project involving backend development, frontend integration, time-series data storage, and data visualisation.
+`Python` `JavaScript` `TypeScript` `C` `C++` `SQL`
 
-**Key technologies:**
+**Backend & Web**
 
-- Python
-- Django
-- JavaScript / TypeScript
-- InfluxDB
-- Grafana
-- REST APIs
-- Git / GitHub collaboration
+`Django` `REST APIs` `React` `HTML` `CSS`
 
-**My work included:**
+**Data & Machine Learning**
 
-- Contributing to backend development and project integration
-- Working with InfluxDB for time-series data storage
-- Supporting data visualisation through Grafana dashboards
-- Participating in collaborative Git workflow and group development
-- Updating project documentation and testing project features
+`Pandas` `NumPy` `Scikit-learn` `XGBoost` `Jupyter`
 
----
+**Databases & Visualisation**
 
-### Secure Programming Group Project
+`InfluxDB` `Grafana` `SQL Databases`
 
-A secure communication system developed as part of a group project. The project focused on secure protocol design, implementation, and review.
+**Security & Networking**
 
-**Key technologies and concepts:**
+`WebSockets` `RSA` `AES-GCM` `Cryptography` `AsyncIO`
 
-- Python
-- WebSocket communication
-- RSA encryption
-- AES-GCM encryption
-- Digital signatures
-- Secure protocol design
-- Security testing and vulnerability analysis
+**Tools**
 
-**Project highlights:**
-
-- Built a secure peer-to-peer style chat system
-- Implemented encrypted communication between nodes
-- Designed and tested a structured message format
-- Analysed vulnerabilities such as weak signature verification, key management risks, and unsafe file handling
-- Practised secure coding, protocol review, and ethical security testing
+`Git` `GitHub` `VS Code`
 
 ---
 
-### AI Triage Acuity Prediction
+# 🚀 Featured Projects
 
-A capstone machine learning project focused on predicting emergency department triage acuity using early patient information.
+## 🏥 Healthcare AI & Machine Learning
 
-**Key technologies:**
+### [Emergency Triage Prediction →](https://github.com/Yeyang-Deng/healthcare-ai-ml-project)
 
-- Python
-- Pandas
-- Scikit-learn
-- XGBoost
-- Jupyter Notebook
-- Data preprocessing
-- Model evaluation
+Machine learning project focused on predicting emergency department triage acuity using information available early in the patient journey.
 
-**Project work included:**
+**Highlights**
 
-- Preparing multi-feature modelling datasets using chief complaint text, vital signs, and early patient information
-- Reproducing previous-group-style machine learning workflows
-- Training and comparing Logistic Regression, Decision Tree, Random Forest, XGBoost, and tuned XGBoost models
-- Evaluating models using accuracy, macro F1-score, weighted F1-score, confusion matrices, under-triage, and over-triage metrics
-- Analysing the impact of class imbalance on triage prediction performance
+- Built and evaluated Logistic Regression, Decision Tree, Random Forest and XGBoost models
+- Developed a complaint-only baseline with **68.54% accuracy**
+- Improved performance to **72.12% accuracy** using tuned XGBoost
+- Evaluated macro F1, weighted F1, under-triage and over-triage
+- Conducted an additional comparison with LLM-based predictions
+- Worked with imbalanced healthcare data
 
-**Best reproduced result:**
-
-- Tuned XGBoost achieved approximately 72% test accuracy in the four-class acuity prediction setting
+**Technologies:**  
+`Python` `Pandas` `Scikit-learn` `XGBoost` `Jupyter` `Machine Learning`
 
 ---
 
-### Coursework and Practice Projects
+## 📊 Full-Stack Data Dashboard
 
-This repository contains selected coursework, programming practice, and experimental notebooks.
+### [Django + InfluxDB + Grafana Project →](https://github.com/Yeyang-Deng/django-influxdb-grafana-project)
 
-**Areas covered:**
+Full-stack data management and visualisation platform combining a web interface, time-series database and Grafana dashboards.
 
-- Python programming
-- Data analysis
-- Machine learning
-- Algorithms
-- Jupyter Notebook experiments
-- University coursework practice
+**Highlights**
 
----
+- Built backend functionality using Django
+- Integrated InfluxDB for time-series data storage and querying
+- Developed a visual query builder for fields and filters
+- Supported automatic generation of Flux queries
+- Integrated Grafana visualisations into the application
+- Added query result display and CSV export functionality
+- Worked across frontend, backend, database and API layers
 
-## Technical Skills
-
-### Programming Languages
-
-- Python
-- JavaScript
-- TypeScript
-- C / C++
-- Java
-- SQL
-
-### Frameworks and Tools
-
-- Django
-- Scikit-learn
-- XGBoost
-- Pandas
-- NumPy
-- Matplotlib
-- InfluxDB
-- Grafana
-- Git / GitHub
-- Jupyter Notebook
-
-### Areas of Interest
-
-- Software engineering
-- Machine learning
-- Data analytics
-- Cybersecurity
-- Secure communication systems
-- Game development
-- Backend development
-- Data visualisation
+**Technologies:**  
+`Python` `Django` `JavaScript` `React` `InfluxDB` `Grafana` `REST APIs`
 
 ---
 
-## Current Focus
+## 🔐 Secure P2P Messaging System
 
-I am currently working on applied AI and machine learning projects, with a focus on healthcare-related prediction tasks, model evaluation, and practical software development.
+### [Secure Networking Project →](https://github.com/Yeyang-Deng/secure-networking-project)
 
-I am also interested in graduate and junior software engineering roles where I can contribute to real-world systems, continue improving my technical skills, and work in collaborative development teams.
+Distributed peer-to-peer messaging application exploring secure communication, cryptographic authentication and networking.
+
+**Highlights**
+
+- Built peer-to-peer communication using Python and WebSockets
+- Implemented RSA-based node identities and digital signatures
+- Used RSA-OAEP for secure key exchange
+- Used AES-256-GCM for encrypted messaging
+- Implemented private messaging, group messaging and session management
+- Worked with distributed routing and message verification
+- Included a controlled authentication bypass for security testing and vulnerability analysis
+
+**Technologies:**  
+`Python` `WebSockets` `AsyncIO` `RSA` `AES-GCM` `Cryptography`
 
 ---
 
-## Contact
+## 🎮 Game Development
 
-- GitHub: [Yeyang-Deng](https://github.com/Yeyang-Deng)
-- LinkedIn: Add your LinkedIn link here
-- Email: Add your preferred email here
+Before starting my postgraduate studies, I worked as a game developer for approximately one year, mainly using JavaScript and TypeScript, with additional C/C++ experience.
+
+I also build small personal game projects and prototypes involving gameplay systems, interactive environments and AI behaviour.
+
+My game development projects are kept on a separate GitHub account:
+
+### 🎮 [View my game projects →](https://github.com/AllenKafka)
+
+---
+
+## 🎯 What I'm Looking For
+
+I am currently interested in graduate and early-career opportunities including:
+
+- Software Engineer
+- Graduate Software Engineer
+- Backend Developer
+- Python Developer
+- Data Engineer
+- Machine Learning / AI Engineer
+- Junior Full-Stack Developer
+
+I am particularly interested in roles where I can continue developing my software engineering skills while contributing to real products and learning from experienced engineers.
+
+---
+
+## 📫 Links
+
+- **Main GitHub:** [github.com/Yeyang-Deng](https://github.com/Yeyang-Deng)
+- **Game Projects:** [github.com/AllenKafka](https://github.com/AllenKafka)
+- **LinkedIn:** www.linkedin.com/in/yeyang-deng-229302314
