@@ -111,7 +111,7 @@ I also build small personal game projects and prototypes involving gameplay syst
 
 My game development projects are kept on a separate GitHub account:
 
-### 🎮 [View my game projects →](https://github.com/AllenKafka)
+### 🎮 [View my game projects →](https://github.com/AllenKafka/Gaming)
 
 ---
 
